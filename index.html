@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima da Cidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Previsão do Clima</h1>
+    
+    <div class="weather-input">
+      <input type="text" id="city" placeholder="Digite o nome da cidade">
+      <button onclick="getWeatherData()">Buscar</button>
+    </div>
+    
+    <div id="weather-result" class="weather-result">
+      <h2 id="city-name">Cidade</h2>
+      <p id="temperature">Temperatura: -- °C</p>
+      <p id="description">Descrição: --</p>
+      <p id="humidity">Umidade: -- %</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
